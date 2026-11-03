@@ -1,0 +1,580 @@
+{
+ "source": "Printed outputs of the project notebook (Colab, October 2026); Figure 1 counts read from the value labels of the original chart.",
+ "n_records": 16747,
+ "content_types": {
+  "article": 14975,
+  "liveblog": 1482,
+  "interactive": 290
+ },
+ "top15_sections": [
+  [
+   "US news",
+   5795
+  ],
+  [
+   "World news",
+   3159
+  ],
+  [
+   "Opinion",
+   1713
+  ],
+  [
+   "Business",
+   951
+  ],
+  [
+   "Australia news",
+   865
+  ],
+  [
+   "Politics",
+   682
+  ],
+  [
+   "Football",
+   451
+  ],
+  [
+   "Sport",
+   368
+  ],
+  [
+   "Technology",
+   303
+  ],
+  [
+   "Environment",
+   263
+  ],
+  [
+   "Media",
+   240
+  ],
+  [
+   "Film",
+   235
+  ],
+  [
+   "Culture",
+   234
+  ],
+  [
+   "News",
+   216
+  ],
+  [
+   "UK news",
+   209
+  ]
+ ],
+ "ner_headlines_top10": {
+  "PERSON": [
+   [
+    "Trump",
+    637
+   ],
+   [
+    "Editorial",
+    221
+   ],
+   [
+    "Donald Trump",
+    190
+   ],
+   [
+    "Hormuz",
+    155
+   ],
+   [
+    "Afternoon Update",
+    129
+   ],
+   [
+    "Putin",
+    123
+   ],
+   [
+    "Arwa Mahdawi",
+    123
+   ],
+   [
+    "Epstein",
+    92
+   ],
+   [
+    "Maga",
+    84
+   ],
+   [
+    "Netanyahu",
+    81
+   ]
+  ],
+  "ORG": [
+   [
+    "Trump",
+    2372
+   ],
+   [
+    "Guardian",
+    247
+   ],
+   [
+    "White House",
+    222
+   ],
+   [
+    "EU",
+    222
+   ],
+   [
+    "Senate",
+    151
+   ],
+   [
+    "BBC",
+    118
+   ],
+   [
+    "UN",
+    116
+   ],
+   [
+    "House",
+    115
+   ],
+   [
+    "Nato",
+    109
+   ],
+   [
+    "Pentagon",
+    97
+   ]
+  ],
+  "GPE": [
+   [
+    "US",
+    2895
+   ],
+   [
+    "Iran",
+    1337
+   ],
+   [
+    "UK",
+    706
+   ],
+   [
+    "Ukraine",
+    526
+   ],
+   [
+    "Israel",
+    267
+   ],
+   [
+    "Gaza",
+    230
+   ],
+   [
+    "Russia",
+    229
+   ],
+   [
+    "Australia",
+    215
+   ],
+   [
+    "Venezuela",
+    204
+   ],
+   [
+    "AI",
+    199
+   ]
+  ],
+  "NORP": [
+   [
+    "Democrats",
+    346
+   ],
+   [
+    "Republican",
+    189
+   ],
+   [
+    "Republicans",
+    184
+   ],
+   [
+    "Russian",
+    171
+   ],
+   [
+    "Americans",
+    131
+   ],
+   [
+    "Israeli",
+    122
+   ],
+   [
+    "Iranian",
+    107
+   ],
+   [
+    "Democratic",
+    104
+   ],
+   [
+    "American",
+    100
+   ],
+   [
+    "European",
+    93
+   ]
+  ]
+ },
+ "tfidf_headlines_top25": [
+  [
+   "iran",
+   0.016332
+  ],
+  [
+   "happened",
+   0.015755
+  ],
+  [
+   "war",
+   0.013289
+  ],
+  [
+   "world",
+   0.008657
+  ],
+  [
+   "ukraine",
+   0.007718
+  ],
+  [
+   "ice",
+   0.007537
+  ],
+  [
+   "first",
+   0.006967
+  ],
+  [
+   "briefing",
+   0.006859
+  ],
+  [
+   "house",
+   0.006735
+  ],
+  [
+   "amid",
+   0.006327
+  ],
+  [
+   "against",
+   0.006237
+  ],
+  [
+   "why",
+   0.006222
+  ],
+  [
+   "deal",
+   0.006083
+  ],
+  [
+   "president",
+   0.006061
+  ],
+  [
+   "out",
+   0.005753
+  ],
+  [
+   "democrats",
+   0.00545
+  ],
+  [
+   "cup",
+   0.005411
+  ],
+  [
+   "white",
+   0.005316
+  ],
+  [
+   "oil",
+   0.005313
+  ],
+  [
+   "peace",
+   0.005288
+  ],
+  [
+   "epstein",
+   0.005054
+  ],
+  [
+   "back",
+   0.004918
+  ],
+  [
+   "guardian",
+   0.004887
+  ],
+  [
+   "israel",
+   0.004857
+  ],
+  [
+   "say",
+   0.004852
+  ]
+ ],
+ "idf_headlines_lowest10": [
+  [
+   "happened",
+   3.448096
+  ],
+  [
+   "iran",
+   3.496195
+  ],
+  [
+   "war",
+   3.773305
+  ],
+  [
+   "world",
+   4.299546
+  ],
+  [
+   "ice",
+   4.432615
+  ],
+  [
+   "ukraine",
+   4.47413
+  ],
+  [
+   "first",
+   4.525525
+  ],
+  [
+   "briefing",
+   4.594808
+  ],
+  [
+   "house",
+   4.607937
+  ],
+  [
+   "amid",
+   4.632464
+  ]
+ ],
+ "tfidf_headlines_n_terms": 5072,
+ "sentiment_labels": {
+  "VADER": {
+   "negative": 8701,
+   "neutral": 60,
+   "positive": 7986
+  },
+  "FinBERT": {
+   "negative": 14077,
+   "neutral": 1575,
+   "positive": 1095
+  }
+ },
+ "nmf_topics": [
+  {
+   "topic": "T0",
+   "terms": [
+    "says",
+    "world",
+    "people",
+    "like",
+    "australia"
+   ],
+   "n": 3984,
+   "vader_mean": 0.357393,
+   "finbert_mean": -0.300281
+  },
+  {
+   "topic": "T1",
+   "terms": [
+    "iran",
+    "israel",
+    "iranian",
+    "war",
+    "strait"
+   ],
+   "n": 1967,
+   "vader_mean": -0.653875,
+   "finbert_mean": -0.506147
+  },
+  {
+   "topic": "T2",
+   "terms": [
+    "ukraine",
+    "russia",
+    "russian",
+    "zelenskyy",
+    "ukrainian"
+   ],
+   "n": 1276,
+   "vader_mean": -0.164079,
+   "finbert_mean": -0.437413
+  },
+  {
+   "topic": "T3",
+   "terms": [
+    "ice",
+    "immigration",
+    "said",
+    "agents",
+    "federal"
+   ],
+   "n": 2179,
+   "vader_mean": -0.567147,
+   "finbert_mean": -0.606489
+  },
+  {
+   "topic": "T4",
+   "terms": [
+    "prices",
+    "ai",
+    "uk",
+    "energy",
+    "oil"
+   ],
+   "n": 3143,
+   "vader_mean": 0.182796,
+   "finbert_mean": -0.449044
+  },
+  {
+   "topic": "T5",
+   "terms": [
+    "epstein",
+    "democrats",
+    "republican",
+    "house",
+    "president"
+   ],
+   "n": 4198,
+   "vader_mean": 0.000676,
+   "finbert_mean": -0.466206
+  }
+ ],
+ "top25_headline_terms": [
+  [
+   "happened",
+   1448
+  ],
+  [
+   "iran",
+   1382
+  ],
+  [
+   "war",
+   1065
+  ],
+  [
+   "world",
+   619
+  ],
+  [
+   "ice",
+   541
+  ],
+  [
+   "ukraine",
+   532
+  ],
+  [
+   "first",
+   494
+  ],
+  [
+   "briefing",
+   459
+  ],
+  [
+   "house",
+   456
+  ],
+  [
+   "amid",
+   442
+  ],
+  [
+   "against",
+   422
+  ],
+  [
+   "why",
+   400
+  ],
+  [
+   "out",
+   389
+  ],
+  [
+   "deal",
+   382
+  ],
+  [
+   "president",
+   375
+  ],
+  [
+   "oil",
+   351
+  ],
+  [
+   "democrats",
+   346
+  ],
+  [
+   "white",
+   340
+  ],
+  [
+   "cup",
+   338
+  ],
+  [
+   "peace",
+   324
+  ],
+  [
+   "say",
+   313
+  ],
+  [
+   "epstein",
+   313
+  ],
+  [
+   "back",
+   309
+  ],
+  [
+   "court",
+   308
+  ],
+  [
+   "thing",
+   305
+  ]
+ ]
+}

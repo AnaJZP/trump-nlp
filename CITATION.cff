@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "trump-nlp: Sentiment analysis of The Guardian's coverage of Donald Trump"
+authors:
+  - family-names: "Carrillo Ramírez"
+    given-names: "Víctor"
+  - family-names: "Jiménez Preciado"
+    given-names: "Ana Lorena"
+  - family-names: "Ríos Bolívar"
+    given-names: "Humberto"
+date-released: 2026-11-02
+url: "https://github.com/AnaJZP/trump-nlp"
